@@ -3,7 +3,7 @@
 詳しくはNLP2021予稿集（Comming Soon）をご覧ください。
 
 ## 概要
-日本語において、近年世間に大きく広まった新語のリストを獲得するために、株式会社ドワンゴ様から提供されている「ニコニコ動画コメント等データセット(https://www.nii.ac.jp/dsc/idr/nico/nico-user.html)」および東北大学乾研究室にてクローリングされたTwitterデータを利用し、Pythonの tslearn ライブラリ （https://tslearn.readthedocs.io/en/latest/index.html） を用いて単語のクラスタリングを行いました。
+日本語において、近年世間に大きく広まった新語のリストを獲得するために、株式会社ドワンゴ様から提供されている「ニコニコ動画コメント等データセット (https://www.nii.ac.jp/dsc/idr/nico/nico-user.html) 」および東北大学乾研究室にてクローリングされたTwitterデータを利用し、Pythonの tslearn ライブラリ （https://tslearn.readthedocs.io/en/latest/index.html） を用いて単語のクラスタリングを行いました。
 なお、単語の分割にはMeCabのNEologd (https://github.com/neologd/mecab-ipadic-neologd/blob/master/README.ja.md) を用いています。
 
 
@@ -17,7 +17,7 @@
 描画されているグラフにオンマウスすると、その線に対応する単語を確認することができます。
 ![こんなこともできます](fig/sample_2.png)
 
-htmlの作成にはtaucharts ([https://github.com/TargetProcess/tauCharts]) というJavascriptライブラリを用いています。
+htmlの作成にはtaucharts (https://github.com/TargetProcess/tauCharts) というJavascriptライブラリを用いています。
 
 また、この時系列クラスタリングの可視化において、同研究室の松田耕史氏に大きな協力をいただいております。記して感謝いたします。
 

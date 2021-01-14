@@ -10,6 +10,7 @@
 を利用し、
 
 Pythonの tslearn ライブラリ （https://tslearn.readthedocs.io/en/latest/index.html) を用いて単語のクラスタリングを行いました。
+
 なお、単語の分割にはMeCabのNEologd (https://github.com/neologd/mecab-ipadic-neologd/blob/master/README.ja.md) を用いています。
 
 

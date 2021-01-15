@@ -1,17 +1,19 @@
 ## About
 本ページは、NLP2021に投稿した「オンラインコミュニティにおける単語頻度の通時的変化を利用した新語リストの獲得」という論文において掲載した時系列クラスタリングの全体像を載せたものです。
+
 詳しくはNLP2021予稿集（Comming Soon）をご覧ください。
 
 ## 概要
 日本語において、近年世間に大きく広まった新語のリストを獲得するために、
 
-- 株式会社ドワンゴ様から提供されている『ニコニコ動画コメント等データセット (https://www.nii.ac.jp/dsc/idr/nico/nico-user.html) 』
+- 株式会社ドワンゴ様から提供されている『[ニコニコ動画コメント等データセット] (https://www.nii.ac.jp/dsc/idr/nico/nico-user.html) 』
 - 東北大学乾研究室にてクローリングされたTwitterデータ
+
 を利用し、
 
-Pythonの tslearn ライブラリ （https://tslearn.readthedocs.io/en/latest/index.html) を用いて単語のクラスタリングを行いました。
+Pythonの [tslearn ライブラリ](https://tslearn.readthedocs.io/en/latest/index.html) を用いて単語のクラスタリングを行いました。
 
-なお、単語の分割にはMeCabのNEologd (https://github.com/neologd/mecab-ipadic-neologd/blob/master/README.ja.md) を用いています。
+なお、単語の分割には[MeCabのNEologd](https://github.com/neologd/mecab-ipadic-neologd/blob/master/README.ja.md) を用いています。
 
 
 クラスタリングされた時系列データの見方は以下の通りです。
@@ -24,7 +26,7 @@ Pythonの tslearn ライブラリ （https://tslearn.readthedocs.io/en/latest/in
 描画されているグラフにオンマウスすると、その線に対応する単語を確認することができます。
 ![こんなこともできます](fig/sample_2.png)
 
-HTMLの作成にはtaucharts (https://github.com/TargetProcess/tauCharts) というJavascriptライブラリを用いています。
+HTMLの作成には[taucharts](https://github.com/TargetProcess/tauCharts) というJavascriptライブラリを用いています。
 
 また、この時系列クラスタリングの可視化において、同研究室の松田耕史氏に大きな協力をいただいております。記して感謝いたします。
 

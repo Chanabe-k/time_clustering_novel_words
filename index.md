@@ -16,9 +16,9 @@ Pythonの[tslearn ライブラリ](https://tslearn.readthedocs.io/en/latest/inde
 なお、単語の分割には[MeCabのNEologd](https://github.com/neologd/mecab-ipadic-neologd/blob/master/README.ja.md)を用いています。
 
 
-クラスタリングされた時系列データの見方は以下の通りです。
+クラスタリングされた時系列データは以下のようになっています。
 ![グラフ例](fig/sample_1.png)
-上からクラスタID : クラスタに属した単語数、グラフ、クラスタに属した単語となっています。
+上からそれぞれ、クラスタID : クラスタに属した単語数、グラフ、クラスタに属した単語となっています。
 
 グラフは横軸が各年（2013~2018年）、縦軸が各年における単語頻度（各単語の頻度を、各年における総単語数で正規化したもの）となっています。
 

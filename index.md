@@ -17,10 +17,10 @@ htmlの作成にはtaucharts (https://github.com/TargetProcess/tauCharts) とい
 
 ## 時系列クラスタリングの結果
 
-### [ニコニコ動画コメント等データセット](https://www.nii.ac.jp/dsc/idr/nico/nico-user.html)
+### Twitter 
 [クラスタリング結果](https://chanabe-k.github.io/time_clustering_novel_words/twitter_clustering.html)
 
-### Twitter 
+### [ニコニコ動画コメント等データセット](https://www.nii.ac.jp/dsc/idr/nico/nico-user.html)
 [クラスタリング結果](https://chanabe-k.github.io/time_clustering_novel_words/nico_clustering.html)
 
 #### Contact

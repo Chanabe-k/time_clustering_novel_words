@@ -32,6 +32,8 @@ HTMLの作成には[taucharts](https://github.com/TargetProcess/tauCharts)とい
 
 ## 時系列クラスタリングの結果
 
+※クラスタリング結果の公開に伴い、収集された単語のうち一部を『[おーぷん2ちゃんねる対話コーパス](https://github.com/1never/open2ch-dialogue-corpus)』でで提供されているNGワードリストを用いてフィルタリングしています。
+
 ### ニコニコ動画コメント等データセット
 [クラスタリング結果](https://chanabe-k.github.io/time_clustering_novel_words/nico_clustering.html)
 

@@ -11,7 +11,7 @@
 
 を利用し、
 
-Pythonの[tslearn ライブラリ](https://tslearn.readthedocs.io/en/latest/index.html)を用いて単語のクラスタリングを行いました。
+Pythonの[tslearnライブラリ](https://tslearn.readthedocs.io/en/latest/index.html)を用いて単語のクラスタリングを行いました。
 
 なお、単語の分割には[MeCabのNEologd](https://github.com/neologd/mecab-ipadic-neologd/blob/master/README.ja.md)を用いています。
 
@@ -26,7 +26,7 @@ Pythonの[tslearn ライブラリ](https://tslearn.readthedocs.io/en/latest/inde
 描画されているグラフにオンマウスすると、その線に対応する単語を確認することができます。
 ![こんなこともできます](fig/sample_2.png)
 
-HTMLの作成には[taucharts](https://github.com/TargetProcess/tauCharts) というJavascriptライブラリを用いています。
+HTMLの作成には[taucharts](https://github.com/TargetProcess/tauCharts)というJavascriptライブラリを用いています。
 
 また、この時系列クラスタリングの可視化において、同研究室の松田耕史氏に大きな協力をいただいております。記して感謝いたします。
 
